@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_share_children",
+  "info": {
+    "displayName": "children",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "iconText": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "content": {
+      "type": "enumeration",
+      "enum": [
+        "CustomizedDialogs",
+        "CustomizedExpansionPanels",
+        "PaginationTable",
+        "Analytics",
+        "DoughnutChart"
+      ]
+    }
+  }
+}
